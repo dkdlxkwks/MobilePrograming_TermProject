@@ -1,12 +1,19 @@
 package org.androidtown.termproject;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class Plan extends AppCompatActivity {
 
@@ -15,39 +22,56 @@ public class Plan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan);
 
-        ListView listview ;
-        ListViewAdapter adapter;
+        final DBHelper dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
 
-        // Adapter 생성
-        adapter = new ListViewAdapter() ;
+        final TextView result = (TextView) findViewById(R.id.result);
 
-        // 리스트뷰 참조 및 Adapter달기
-        listview = (ListView) findViewById(R.id.listview1);
-        listview.setAdapter(adapter);
+        final EditText etDate = (EditText) findViewById(R.id.date);
+        final EditText etItem = (EditText) findViewById(R.id.item);
+        final EditText etPrice = (EditText) findViewById(R.id.price);
 
-        // 첫 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_box_black_36dp),
-                "Box", "Account Box Black 36dp") ;
-        // 두 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_box_black_36dp),
-                "Circle", "Account Circle Black 36dp") ;
-        // 세 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_box_black_36dp),
-                "Ind", "Assignment Ind Black 36dp") ;
 
-        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        // 날짜는 현재 날짜로 고정
+        // 현재 시간 구하기
+        long now = System.currentTimeMillis();
+        Date date = new Date(now);
+        // 출력될 포맷 설정
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy년 MM월 dd일");
+        etDate.setText(simpleDateFormat.format(date));
+
+        // DB에 데이터 추가
+        Button insert = (Button) findViewById(R.id.insert);
+        insert.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView parent, View v, int position, long id) {
-                // get item
-                Plan_listview item = (Plan_listview) parent.getItemAtPosition(position);
+            public void onClick(View v) {
+                String date = etDate.getText().toString();
+                String item = etItem.getText().toString();
+                String price = etPrice.getText().toString();
 
-                String titleStr = item.getTitle();
-                String descStr = item.getDesc();
-                Drawable iconDrawable = item.getIcon();
-
-                // TODO : use item data.
+                dbHelper.insert(date, item, price);
+                result.setText(dbHelper.getResult());
             }
-        }) ;
+        });
+
+        // DB에 있는 데이터 삭제
+        Button delete = (Button) findViewById(R.id.delete);
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String item = etItem.getText().toString();
+
+                dbHelper.delete(item);
+                result.setText(dbHelper.getResult());
+            }
+        });
+
+        Button select = (Button) findViewById(R.id.select);
+        select.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                result.setText(dbHelper.getResult());
+            }
+        });
 
     }
 
