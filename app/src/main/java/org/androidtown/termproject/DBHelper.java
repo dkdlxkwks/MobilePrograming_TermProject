@@ -34,7 +34,7 @@ public class DBHelper extends SQLiteOpenHelper {
         // 읽고 쓰기가 가능하게 DB 열기
         SQLiteDatabase db = getWritableDatabase();
         // DB에 입력한 값으로 행 추가
-        db.execSQL("INSERT INTO MONEYBOOK VALUES(null, '" + title + "', " + content + ", '" + create_at + "');");
+        db.execSQL("INSERT INTO MONEYBOOK VALUES(null, '" + title + "', '" + content + "', '" + create_at + "');");
         db.close();
     }
 
