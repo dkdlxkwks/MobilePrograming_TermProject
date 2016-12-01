@@ -19,6 +19,7 @@
         <activity android:name=".Note"></activity>
         <activity android:name=".Plan"></activity>
         <activity android:name=".Report"></activity>
+        <activity android:name=".ExerciseTimer"></activity>
     </application>
 
 </manifest>
