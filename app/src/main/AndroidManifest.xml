@@ -20,6 +20,8 @@
         <activity android:name=".Plan"></activity>
         <activity android:name=".Report"></activity>
         <activity android:name=".ExerciseTimer"></activity>
+        <activity android:name=".ColorPaletteDialog"></activity>
+        <activity android:name=".PenPaletteDialog"></activity>
     </application>
 
 </manifest>
