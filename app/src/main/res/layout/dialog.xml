@@ -20,11 +20,14 @@
 	    android:padding="4dp"
 	    android:layout_gravity="center_horizontal"
 	    >
+		<Button  
+			android:id="@+id/closeBtn"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+			android:drawableLeft="@drawable/cancel_btn"
+			android:drawablePadding="4dp"
+			android:text=" 닫기 "
+			/>
 	</LinearLayout>
-
-	<ImageView
-		android:layout_width="380dp"
-		android:layout_height="510dp"
-		android:id="@+id/ivPoster" />
 	
 </LinearLayout>

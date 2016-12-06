@@ -132,7 +132,7 @@ public class GallaryActivity extends Activity {
 			final int pos = position;
 			imageView.setOnClickListener(new View.OnClickListener() {
 				public void onClick(View v) {
-					View dialogView = (View) View.inflate(GallaryActivity.this, R.layout.dialog, null);
+					View dialogView = (View) View.inflate(GallaryActivity.this, R.layout.dialog2, null);
 					AlertDialog.Builder dlg = new AlertDialog.Builder(GallaryActivity.this);
 
 					ImageView ivPoster = (ImageView) dialogView.findViewById(R.id.ivPoster);

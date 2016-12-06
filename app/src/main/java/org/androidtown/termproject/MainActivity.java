@@ -16,6 +16,7 @@ public class MainActivity extends TabActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        startActivity(new Intent(this, SplashActivity.class));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 

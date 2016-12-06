@@ -34,7 +34,7 @@ public class ColorPaletteDialog extends Activity {
         this.setTitle("색상 선택");
         
         grid = (GridView) findViewById(R.id.colorGrid);
-        //closeBtn = (Button) findViewById(R.id.closeBtn);
+        closeBtn = (Button) findViewById(R.id.closeBtn);
         
         grid.setColumnWidth(14);
         grid.setBackgroundColor(Color.GRAY);

@@ -26,6 +26,7 @@
         <activity android:name=".ColorPaletteDialog"></activity>
         <activity android:name=".PenPaletteDialog"></activity>
         <activity android:name=".GallaryActivity"></activity>
+        <activity android:name=".SplashActivity"></activity>
     </application>
 
 </manifest>

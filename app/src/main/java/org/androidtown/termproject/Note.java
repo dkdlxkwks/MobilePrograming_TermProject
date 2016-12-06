@@ -101,16 +101,6 @@ public class Note extends AppCompatActivity {
 
         toolsLayout.addView(addedLayout);
 
-        save.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                saveView(board);
-                me.finish();
-                /*ntent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);*/
-
-            }
-        });
-
         colorBtn.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
 
@@ -197,6 +187,13 @@ public class Note extends AppCompatActivity {
 
                 board.undo();
 
+            }
+        });
+
+        save.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                saveView(board);
+                me.finish();
             }
         });
 
