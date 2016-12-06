@@ -1,15 +1,21 @@
 package org.androidtown.termproject;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.io.File;
+import java.io.FileOutputStream;
 
 public class Note extends AppCompatActivity {
 
@@ -18,6 +24,7 @@ public class Note extends AppCompatActivity {
     Button penBtn;
     Button eraserBtn;
     Button undoBtn;
+    Button save;
 
     LinearLayout addedLayout;
     Button colorLegendBtn;
@@ -28,6 +35,8 @@ public class Note extends AppCompatActivity {
     int oldColor;
     int oldSize;
     boolean eraserSelected = false;
+    private static Note me;
+
 
     /** Called when the activity is first created. */
     @Override
@@ -35,12 +44,15 @@ public class Note extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.note);
 
+        me = this;
+
         LinearLayout toolsLayout = (LinearLayout) findViewById(R.id.toolsLayout);
         LinearLayout boardLayout = (LinearLayout) findViewById(R.id.boardLayout);
         colorBtn = (Button) findViewById(R.id.colorBtn);
         penBtn = (Button) findViewById(R.id.penBtn);
         eraserBtn = (Button) findViewById(R.id.eraserBtn);
         undoBtn = (Button) findViewById(R.id.undoBtn);
+        save = (Button)findViewById(R.id.save);
 
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -89,6 +101,15 @@ public class Note extends AppCompatActivity {
 
         toolsLayout.addView(addedLayout);
 
+        save.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                saveView(board);
+                me.finish();
+                /*ntent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);*/
+
+            }
+        });
 
         colorBtn.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
@@ -195,5 +216,49 @@ public class Note extends AppCompatActivity {
         sizeLegendTxt.setText("Size : " + mSize);
 
         addedLayout.invalidate();
+    }
+
+    private void saveView( View view )
+
+    {
+        GallaryActivity ga = new GallaryActivity();
+
+        String path = "/storage/emulated/0/MyLogger/Pictures/";
+
+
+        Bitmap b = Bitmap.createBitmap(view.getWidth(), view.getHeight(), Bitmap.Config.RGB_565);
+
+        if(b!=null){
+
+            try {
+
+                File f2 = new File(path+ga.getDateString()+".png");
+
+                Canvas c = new Canvas( b );
+
+                view.draw( c );
+
+                FileOutputStream fos = new FileOutputStream(f2);
+
+
+                if ( fos != null )
+
+                {
+
+                    b.compress(Bitmap.CompressFormat.PNG, 100, fos );
+
+                    fos.close();
+
+                }
+
+                //setWallpaper( b );
+
+            } catch( Exception e ){
+
+                Log.e("testSaveView", "Exception: " + e.toString() );
+
+            }
+
+        }
     }
 }

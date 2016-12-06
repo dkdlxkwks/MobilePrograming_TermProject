@@ -1,11 +1,15 @@
 package org.androidtown.termproject;
 
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.widget.TabHost;
+import android.widget.Toast;
+
+import java.io.File;
 
 
 public class MainActivity extends TabActivity {
@@ -34,7 +38,7 @@ public class MainActivity extends TabActivity {
         spec = tabHost.newTabSpec("Exercise").setIndicator("Exercise",
                 res.getDrawable(R.drawable.ic_tab)).setContent(intent);
         tabHost.addTab(spec); //Setting 탭 생성
-        intent = new Intent().setClass(this, Note.class);
+        intent = new Intent().setClass(this, GallaryActivity.class);
         spec = tabHost.newTabSpec("Note").setIndicator("Note",
                 res.getDrawable(R.drawable.ic_tab)).setContent(intent);
         tabHost.addTab(spec);//New 탭 생성
@@ -43,5 +47,6 @@ public class MainActivity extends TabActivity {
                 res.getDrawable(R.drawable.ic_tab)).setContent(intent);
         tabHost.addTab(spec);
         tabHost.setCurrentTab(0);
+
     }
 }

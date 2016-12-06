@@ -48,9 +48,23 @@
     <LinearLayout
         android:id="@+id/boardLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="490dp"
         android:orientation="horizontal"
         >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="SAVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:layout_weight="1" />
     </LinearLayout>
 
 </LinearLayout>
