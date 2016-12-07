@@ -145,7 +145,7 @@ public class GallaryActivity extends Activity {
 					Bitmap src = BitmapFactory.decodeFile(sysFiles[pos].toString(), options);
 					ivPoster.setImageBitmap(src);
 
-					dlg.setIcon(R.drawable.ic_launcher);
+					//dlg.setIcon(R.drawable.ic_launcher);
 					dlg.setView(dialogView);
 
 					dlg.show();
@@ -154,7 +154,8 @@ public class GallaryActivity extends Activity {
 
 			imageView.setOnLongClickListener(new View.OnLongClickListener() {
 				public boolean onLongClick(View v){
-					AlertDialog dialog = createDialogBox();
+					String str = sysFiles[pos].toString();
+					AlertDialog dialog = createDialogBox(str);
 					dialog.show();
 
 					return true;
@@ -170,7 +171,7 @@ public class GallaryActivity extends Activity {
 
 	String cameraTempFilePath;
 
-	private AlertDialog createDialogBox() {
+	private AlertDialog createDialogBox(final String str) {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
 		builder.setTitle("안내");
@@ -185,11 +186,11 @@ public class GallaryActivity extends Activity {
 
 		builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
 			public void onClick(DialogInterface dialog, int whichButton) {
-				/*String mRootPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + dirName;
+				String mRootPath = str;
 
 				File file = new File(mRootPath);
-				file.delete();    //root 삭제*/
-
+				file.delete();    //root 삭제
+				refreshList();
 			}
 		});
 

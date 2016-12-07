@@ -29,12 +29,28 @@
         android:id="@+id/buttonstop"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Stop" />
+        android:text="Save" />
 
     <Button
         android:id="@+id/buttonreset"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Reset" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Today" />
+
+    <TextView
+        android:text="오늘 운동한 시간:"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time" />
 
 </LinearLayout>
