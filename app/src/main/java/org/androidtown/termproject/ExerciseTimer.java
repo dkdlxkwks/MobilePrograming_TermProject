@@ -1,6 +1,9 @@
 package org.androidtown.termproject;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
@@ -8,6 +11,7 @@ import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -19,21 +23,33 @@ public class ExerciseTimer extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.exercise_timer);
 
-        final DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), "Exercise.db", null, 1);
-
         final Chronometer chronometer = (Chronometer) findViewById(R.id.chronometer);
         Button buttonStart = (Button) findViewById(R.id.buttonstart);
         Button buttonStop = (Button) findViewById(R.id.buttonstop);
         Button buttonReset = (Button) findViewById(R.id.buttonreset);
+        Button calorie = (Button) findViewById(R.id.calorie);
 
         final TextView etDate = (TextView) findViewById(R.id.Today);
         final TextView result = (TextView) findViewById(R.id.result2);
+        final TextView alltime = (TextView) findViewById(R.id.alltime);
 
         long now = System.currentTimeMillis();
         Date date = new Date(now);
         // 출력될 포맷 설정
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy년 MM월 dd일");
         etDate.setText(simpleDateFormat.format(date));
+
+        SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyyMMdd");
+        String DBDay = simpleDateFormat2.format(date)+".db";
+
+        final DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), DBDay, null, 1);
+
+        calorie.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Calorie.class);
+                startActivity(intent);
+            }
+        });
 
         buttonStart.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
@@ -45,8 +61,9 @@ public class ExerciseTimer extends Activity {
         buttonStop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 chronometer.stop();
-                dbHelper.insert("Walk",Long.toString((SystemClock.elapsedRealtime()-chronometer.getBase())/1000));
+                dbHelper.insert("Walk",(SystemClock.elapsedRealtime()-chronometer.getBase())/1000);
                 result.setText(dbHelper.getResult());
+                alltime.setText(Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초");
             }
         });
 
@@ -54,8 +71,28 @@ public class ExerciseTimer extends Activity {
             public void onClick(View v) {
                 chronometer.setBase(SystemClock.elapsedRealtime());
                 chronometer.stop();
-                dbHelper.delete("Walk");
-                result.setText(dbHelper.getResult());
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(ExerciseTimer.this);
+
+                builder.setTitle("주의");
+                builder.setMessage("오늘의 운동 기록을 삭제하시겠습니까?");
+                builder.setIcon(android.R.drawable.ic_dialog_alert);
+
+                builder.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+
+                    }
+                });
+
+                builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        dbHelper.delete("Walk");
+                        result.setText(dbHelper.getResult());
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
             }
         });
 

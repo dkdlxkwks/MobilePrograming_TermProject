@@ -27,6 +27,7 @@
         <activity android:name=".PenPaletteDialog"></activity>
         <activity android:name=".GallaryActivity"></activity>
         <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".Calorie"></activity>
     </application>
 
 </manifest>

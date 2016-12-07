@@ -21,7 +21,7 @@ public class DBHelper_Exercise extends SQLiteOpenHelper {
         // 새로운 테이블 생성
         /* 이름은 MONEYBOOK이고, 자동으로 값이 증가하는 _id 정수형 기본키 컬럼과
         item 문자열 컬럼, price 문자열 컬럼, create_at 문자열 컬럼으로 구성된 테이블을 생성. */
-        db.execSQL("CREATE TABLE EXERCISE (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, time TEXT);");
+        db.execSQL("CREATE TABLE EXERCISE (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, time REAL);");
     }
 
     // DB 업그레이드를 위해 버전이 변경될 때 호출되는 함수
@@ -30,7 +30,7 @@ public class DBHelper_Exercise extends SQLiteOpenHelper {
 
     }
 
-    public void insert(String name, String time) {
+    public void insert(String name, long time) {
         // 읽고 쓰기가 가능하게 DB 열기
         SQLiteDatabase db = getWritableDatabase();
         // DB에 입력한 값으로 행 추가
@@ -60,15 +60,26 @@ public class DBHelper_Exercise extends SQLiteOpenHelper {
         // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
         Cursor cursor = db.rawQuery("SELECT * FROM EXERCISE", null);
         while (cursor.moveToNext()) {
-            result += cursor.getString(0)
-                    + ": "
-                    + cursor.getString(1)
+            result += cursor.getString(1)
                     + " "
-                    + cursor.getString(2)
+                    + cursor.getLong(2)
                     + "초"
                     + "\n\n";
         }
 
+        return result;
+    }
+
+    public long timeResult() {
+        // 읽기가 가능하게 DB 열기
+        SQLiteDatabase db = getReadableDatabase();
+        long result = 0;
+
+        // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
+        Cursor cursor = db.rawQuery("SELECT * FROM EXERCISE", null);
+        while (cursor.moveToNext()) {
+            result += cursor.getLong(2);
+        }
         return result;
     }
 }
