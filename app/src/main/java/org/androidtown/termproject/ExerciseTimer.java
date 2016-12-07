@@ -27,7 +27,7 @@ public class ExerciseTimer extends Activity {
         Button buttonReset = (Button) findViewById(R.id.buttonreset);
 
         final TextView etDate = (TextView) findViewById(R.id.Today);
-        final TextView time = (TextView) findViewById(R.id.time);
+        final TextView result = (TextView) findViewById(R.id.result2);
 
         long now = System.currentTimeMillis();
         Date date = new Date(now);
@@ -45,8 +45,8 @@ public class ExerciseTimer extends Activity {
         buttonStop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 chronometer.stop();
-                dbHelper.insert("Walk",(SystemClock.elapsedRealtime()-chronometer.getBase())/1000);
-                time.setText(Long.toString((SystemClock.elapsedRealtime()-chronometer.getBase())/1000));
+                dbHelper.insert("Walk",Long.toString((SystemClock.elapsedRealtime()-chronometer.getBase())/1000));
+                result.setText(dbHelper.getResult());
             }
         });
 
@@ -54,6 +54,8 @@ public class ExerciseTimer extends Activity {
             public void onClick(View v) {
                 chronometer.setBase(SystemClock.elapsedRealtime());
                 chronometer.stop();
+                dbHelper.delete("Walk");
+                result.setText(dbHelper.getResult());
             }
         });
 

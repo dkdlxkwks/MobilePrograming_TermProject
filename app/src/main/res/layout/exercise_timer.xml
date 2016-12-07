@@ -48,9 +48,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView6" />
 
-    <TextView
-        android:layout_width="118dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/time" />
+    <ScrollView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="345dp">
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white" />
+    </ScrollView>
 
 </LinearLayout>
