@@ -3,6 +3,7 @@ package org.androidtown.termproject;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -24,6 +25,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.StringTokenizer;
+
+import static org.androidtown.termproject.R.layout.dialog;
 
 public class GallaryActivity extends Activity {
 
@@ -116,7 +119,7 @@ public class GallaryActivity extends Activity {
 
 		public View getView(int position, View convertView, ViewGroup parent) {
 
-			ImageView imageView = new ImageView(context);
+			final ImageView imageView = new ImageView(context);
 			imageView.setLayoutParams(new GridView.LayoutParams(300, 300));
 			imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 			imageView.setPadding(5, 5, 5, 5);
@@ -149,6 +152,15 @@ public class GallaryActivity extends Activity {
 				}
 			});
 
+			imageView.setOnLongClickListener(new View.OnLongClickListener() {
+				public boolean onLongClick(View v){
+					AlertDialog dialog = createDialogBox();
+					dialog.show();
+
+					return true;
+				}
+			});
+
 			return imageView;
 		}
 	}
@@ -157,6 +169,33 @@ public class GallaryActivity extends Activity {
 	public static final int REQ_CAMERA_SELECT = 1;
 
 	String cameraTempFilePath;
+
+	private AlertDialog createDialogBox() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+		builder.setTitle("안내");
+		builder.setMessage("삭제하시겠습니까?");
+		builder.setIcon(android.R.drawable.ic_dialog_alert);
+
+		builder.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int whichButton) {
+
+			}
+		});
+
+		builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int whichButton) {
+				/*String mRootPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + dirName;
+
+				File file = new File(mRootPath);
+				file.delete();    //root 삭제*/
+
+			}
+		});
+
+		AlertDialog dialog = builder.create();
+		return dialog;
+	}
 
 	public String getDateString()
 	{
