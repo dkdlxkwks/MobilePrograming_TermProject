@@ -88,6 +88,7 @@ public class ExerciseTimer extends Activity {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         dbHelper.delete("Walk");
                         result.setText(dbHelper.getResult());
+                        alltime.setText(0 + "분 " + 0 + "초");
                     }
                 });
 
