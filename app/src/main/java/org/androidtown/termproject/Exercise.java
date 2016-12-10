@@ -55,6 +55,15 @@ public class Exercise extends Activity implements SensorEventListener {
                 startActivity(intent);
             }
         });
+
+        Button insert2 = (Button) findViewById(R.id.button2);
+        insert2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ExerciseRecord.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

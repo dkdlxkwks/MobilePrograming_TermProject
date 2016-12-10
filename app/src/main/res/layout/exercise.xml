@@ -43,5 +43,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button" />
+
+        <Button
+            android:text="운동기록보기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" />
     </LinearLayout>
 </RelativeLayout>

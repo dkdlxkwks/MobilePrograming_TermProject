@@ -56,6 +56,7 @@
         <activity android:name=".GallaryActivity" />
         <activity android:name=".SplashActivity" />
         <activity android:name=".Calorie" />
+        <activity android:name=".ExerciseRecord"/>
         <activity android:name=".MapsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
