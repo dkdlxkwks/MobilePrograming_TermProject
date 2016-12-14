@@ -19,6 +19,8 @@ import java.util.Date;
 
 public class Plan extends AppCompatActivity {
 
+    String item = "";
+    String content = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +48,8 @@ public class Plan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String date = etDate.getText().toString();
-                String item = etItem.getText().toString();
-                String content = etContent.getText().toString();
+                item = etItem.getText().toString();
+                content = etContent.getText().toString();
 
                 dbHelper.insert(date, item, content);
                 result.setText(dbHelper.getResult());

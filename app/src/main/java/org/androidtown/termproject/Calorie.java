@@ -39,7 +39,8 @@ public class Calorie extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 long Time = dbHelper.timeResult()/6;
-                long weight = Long.parseLong(etItem.getText().toString());
+                long weight = 0;
+                weight = Long.parseLong(etItem.getText().toString());
 
                 double cal = cal(Time, weight);
                 cal = Double.parseDouble(String.format("%.2f",cal));
