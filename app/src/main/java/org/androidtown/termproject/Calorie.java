@@ -23,7 +23,7 @@ public class Calorie extends AppCompatActivity {
         long now = System.currentTimeMillis();
         Date date = new Date(now);
         SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyyMMdd");
-        String DBDay = simpleDateFormat2.format(date)+".db";
+        String DBDay = simpleDateFormat2.format(date)+"Walk.db";
 
         final DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), DBDay, null, 1);
         String ExerciseTime = Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초";
@@ -44,7 +44,7 @@ public class Calorie extends AppCompatActivity {
                 double cal = cal(Time, weight);
                 cal = Double.parseDouble(String.format("%.2f",cal));
 
-                calshow.setText(Double.toString(cal));
+                calshow.setText(Double.toString(cal) + "kcal");
 
             }
         });

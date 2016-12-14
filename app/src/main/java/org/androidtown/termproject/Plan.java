@@ -1,11 +1,13 @@
 package org.androidtown.termproject;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,14 +24,13 @@ public class Plan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan);
 
-        final DBHelper dbHelper = new DBHelper(getApplicationContext(), "MoneyBook.db", null, 1);
+        final DBHelper dbHelper = new DBHelper(getApplicationContext(), "PLAN.db", null, 1);
 
         final TextView result = (TextView) findViewById(R.id.result);
 
         final EditText etDate = (EditText) findViewById(R.id.date);
         final EditText etItem = (EditText) findViewById(R.id.item);
-        final EditText etPrice = (EditText) findViewById(R.id.price);
-
+        final EditText etContent = (EditText) findViewById(R.id.price);
 
         // 날짜는 현재 날짜로 고정
         // 현재 시간 구하기
@@ -46,10 +47,15 @@ public class Plan extends AppCompatActivity {
             public void onClick(View v) {
                 String date = etDate.getText().toString();
                 String item = etItem.getText().toString();
-                String price = etPrice.getText().toString();
+                String content = etContent.getText().toString();
 
-                dbHelper.insert(date, item, price);
+                dbHelper.insert(date, item, content);
                 result.setText(dbHelper.getResult());
+
+                //키보드 숨기기
+                InputMethodManager immhide = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+                immhide.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+
             }
         });
 
@@ -62,6 +68,10 @@ public class Plan extends AppCompatActivity {
 
                 dbHelper.delete(item);
                 result.setText(dbHelper.getResult());
+
+                //키보드 숨기기
+                InputMethodManager immhide = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+                immhide.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
             }
         });
 

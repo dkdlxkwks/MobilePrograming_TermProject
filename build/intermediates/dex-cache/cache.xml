@@ -3,615 +3,615 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_6ab15193b4cd23417389598960083091158d82d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_43eeb31f9fe6c51e32dabdb346b836d9c8839d6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_f4ea2a25ec80fdbe07e6b4667d372893c57bb029\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_8aa191ce63d3da1097898a52d7152fc70fa7b2ad\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_bfed9c7e2aee7a96f70a66d1d96f3ec3e323efbd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="83b2fa88e0412fcba9b3b6ff7016320df8f4b923">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c30b5a5c9967fd9d22d9d9ffa6652d214a6e522b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_e91782b6ef2dada1e76322175cf279b0ec57224e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_e6c562eb8b68ea049febb33f97a138cdc59d391a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_e831abe0a67372c54c5802131859da920bc98307\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_18f1ed0dd60f5678103b10c2cf7e578ce22b67f0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_c4617dd7f8af1def455b09703db8b290a1836ea7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_83c430837bc40a9be8079b528f5a5f5ee555c6ca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_3f4b93c1ac29a998bda430069346984dd18aaae9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_1465371123a504e61c0c916ce54dc21680c01a44\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_7d46b7eeee6ee355b3bc3bbdb72f9bff7713c6c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_2c8900e8c77f6d817bc1e3aa8f6d17366916e850\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e79fd552c10695425d66d5ba4abd89c7b644b641\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_bb424cff3b526525e05c4236261c3b7a845a17c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_8574bfcff0913fa0d8a03cde916ff08c9f4ec373\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_8f85c4520267d29af0fa164a1005d71a519d401f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_608dc2e43afc41857580a937a974fc52e17c398d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_b93f65d3864b75987cf78d8ce4e76426e76eda37\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_e6d8243c9893ed12dd70c40e4d87d4d21a5fd58e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_535cd9c8488358dfe7799548dfd01865bf84f1df\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_3594602959966037623a873f64c67bfed50f502a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_1e0f61ba155d3f0800783c2d49c713c56e245ea3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_f1b79e8431520942d0d73c250611375e9564b598\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_232ae678d30c5ad3f6bfbea29023ba341bbfdfe0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a48dc0b148059764d32500be558702d5ff932058">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_2960e4bdac9d8ca27ddf9ce2b2243c36f43b6bc8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_cfea4eb482021953c612086f8ad5375071e69e49\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_8df74f6bb2d8c357a260e48f9f186e30e49d239d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_bfe89ad7c7a7391b63050770c6780065431898ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_3d44117c848399e7023b4387413cf655db1cab9e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_72a1aafc385f8ba2166d48976e82fe7090282b48\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_0bb4841b24c9241d82b24b72fbf41eed1a869849\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_c5f30a35ba6afd00731a3f54ddbe7c0fa381f450\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_302cd6f680b62b765e57abeed5531debfb5d1c71\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_04ea1b92653fdc41f1feb7df4239a7ddf0c12da3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_00d4e2b91e7a97c3d67b97201a586ba9b2e33b93\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_5ed9d69ac3d84c94bcd4017ed5ec169f7a9baaa3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_74c2947664cc39903b3f1c30262f10069632baf6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="81f96acb0c2901323c6ee6a85097a766b36366d5">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2f5adde741e369594b3e9d2d0b0607288d5d527c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_eaf15e0a1c9d1bfb7818541ce98980f5c2706921\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_8206bcd410fb568aeb3406d79ba702d4773e811b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_e736b4eec2187ce96113fbf89be50334802192ae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jar="C:\Users\OhKyungRok\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_fd4fea2a0ae0261fdb6680e9a2928ac0bfa326a9\classes.dex" />
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_8863dc609da07c5e7cbd8738038b059ec30fa640\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_489d5f8892489d83544527ca5366a7f4e8f0b6d3\classes.dex" />
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_c9ae430ec14a829b2596d01f19ae35edf76788db\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d2e9751dcdb947aa60c8b4cffa738e852e2a703e\classes.dex" />
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_3303dc57425d9b372ec2369438805ccce1b238de\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_8c60ce73a38bf55719752dabe3d2132ca8c63729\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_d96e77c924e5a77b48b2ff8add3487f9b8322f5a\classes.dex" />
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_39faf3eb92d99c0196dac6cb4be6edcb83021121\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_14dd5ccd7978feb6b2efd9aa75db621fa541c7d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_aa19cbbde4036e408035cb097a017eb8df913bdd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_b5823eb4dea00c9a44aca6d540dd84a4c90fa958\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_93e68cbca83287b44a1c6766bc4a582c3c988267\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_988c0cf6a57459b01379fa2ac9ee8b74054b1f99\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_8ca05bc6fd01ebf78bff4ed98795ca63ed1e43da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_be0c6081b323dbca6a16e37f358e88163f44f64b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_1c614c36170d8c49eddf5c056b80ae0f2bc89248\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_fe382fe122e2e6dac4ee34086127936cf1568c13\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_74339c7ec8eb79ec2d1309bd68962cdb17460ede\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_f4931451419ad415c2d86ec31222351e58f7fd6b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_872e1ff4cba8594ce2f22ba1c490f3c8f0b50890\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_1b324ab6927ca51054ce01e22f8489a5c717bebb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_b540c8af2b5d43598c069350d75128aee4e30f12\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_2c712a40472e3046027d850565d8c9683cf622be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_00a26517228f94a036b2f78575dd193134f73a28\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_e0150cec2c37ae57dc65e8591511c505723a3996\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="C:\Users\kyung\AndroidStudioProjects\TermProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_67434881681683d443d859c1a0aecfccf279d416\classes.dex" />
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_06a845bf61dfbb87f315f2bc9654d0984e9b252a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_84959d4a64780ff5c5ef3a904925d0d536addb99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_031dd50b34d82e0ac95e59763a355c447a22e5fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_c14b5e146919883f8663635001bc85b4f1b4d533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_a77e723f2744ab15f7eb298bc3ee1d9a755105a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_cbf92adb70a248e3aa25e231b62a10d5e4e8aaf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_8ab854ec02e48476312ebbee1a280051e6e5b83a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_0c6264c27d4d217025059119969526142fa17c97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_68fcf019ab2012d8dc6d6709514eb990eb4495f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_bf2e0335a535faa0a45bd70bcda6b0b780aff7fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_f6745b670f9cbc203ac2512b602b388ac9a57815\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_6d209ea932b699012da33000afb1c71ed17a37f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_573ac226862bb5e3bfc5274f17ca3f49412126b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_0667449b434e4490bb7a786fca0f9bcaaacbf5f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_a358b559dc56f874b5ae2a0fce45e8fbdb18f35a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_e3cf093d6d8d09dd4c9bfa3c05eb8387e0d94218\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_45cb8bb91b69d63dcc90784a5c19d2f760902322\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_09ff9e7b266c99da1233bfe8c1c0d4495a5e3a85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a46434b890081c06eba4444af55f2126941d6980\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_46c69a20ec856f237d571d1604015329a1770f52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_792fd7140f24ea3f803a0cb4af7efc58dddfd03f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_909cf65e78c8084390fa6900f4b461d6ff5950af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_172d5342f33a7bd8248313052c034dd3723bc375\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_93bd71994c127a57254f42214a062c5d760f8dc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_400986273f59343955d99904237f2d31f4a97a07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_43306f08c2a323d894c8e3de3a2d818a518eb2e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_6ce7209306744529ff912697d4ffad88c6b266f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_d68c27850f466cc12ab75af78df3e3ec2a45e513\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_838548ebe9d9209006eb56c505fb7a1c6d3b06b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_9211dd9c9e8109e9ddb0abe62d058e2016f7a21f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_7f64063f0283747ff4e6f3dfb3a0751b21ec71ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d25b16340f0847b9302e1831b7c45c869499a1e6">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1155abceff828f1fdeb90383e6b61b6de118d3f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_cdd64f8499e8c3011954a61c23fc94ce5a98a9c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_bf3bb96054cea2dc75770db97835faa3db0aea0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_b7ffe2767c284028291875f77268523b5018c9d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_c0c19ffacf2389a09c9d0c21ef16544fbfdad9d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_bb29e746bac1cd0958d43c343e5c1771b431b23e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_6f44e535885071f1b73b92d280325f9dcc690e7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_38e0e608d28ba237a4a9eb2d67bb89f4efb35582\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_ee88841caf4230fcfafb5650685829e9bdd98751\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_3ebb6552d6ccc66dbb5731ae47a2b0a2b76b0379\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_34be8126ae8ccb3d96c43e7e922b7742cfd0b1c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_299f66d58e3dc4c60426c52bf6edfc5ab2da6365\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_258810f66b4cd0f7c23609fd2a48bd98865c2afc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_2ed895229d80fd140b818ef8724ac127fe1db22b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_244cb925ed40a0da5149b37e2e42349b37128d8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_3e297c0381aacbe4c3274dc1e963cc7b9b9d590a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_9228148de018a1f12076d41b075cbaca4e3789a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd37f4ee70a9814a9da0f95f784e05adc45d3056">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_088305dcb71703587d7a97f3169eb883f360730c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_2d3d0cf60cf8f7549dc49d5cd2419b8d4625f6e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_ce943343c374f447de25b60286f6430ffaeec778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_4c865ca8bf10f96c8e441b22467d85b52db0f286\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_7732d54be3bb292ca9ad62ec697a159f45d5b223\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_df4b83e2089d144f1bf5d45602e2a025f80c5534\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_09ed787b28a9e3fb0783f867b5b771bcfabf9977\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_01cf738a681bc62e6617f351731c250f286bdcd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_a7d7d5592bd5a7888e3f141a809807efee2f9379\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_c128ff83874524f58621c3bfc90e110d6907adfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_4da0f854a1650412d63e452794908b5a46e28c16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_46ebc27ca48d803ea63e27242af4037ba07c639c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_8948f9dc0d73f8327c14980a04268d53134118c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_22c54d00a04460ea7d05c701974f7e4b80cb450a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_6357322ccaec7f890dd5f62dae822a3833cc2713\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\OhKyungRok\Desktop\MobilePrograming_TermProject4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_b6376edd769740f39646b8c9b9ac364932775d75\classes.dex" />
     </item>
 
 </items>

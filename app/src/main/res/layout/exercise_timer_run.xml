@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3F0099"
+        android:text="달리기"
+        android:textColor="#FFFFFF" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/buttonstop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Today"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <TextView
+        android:text="오늘 운동한 시간:"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <ScrollView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="294dp">
+
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cast_expanded_controller_background_color" />
+    </ScrollView>
+
+    <TextView
+        android:text="총운동시간"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alltime"
+            android:layout_weight="1"
+            android:textColor="@color/cast_expanded_controller_background_color" />
+
+        <Button
+            android:text="칼로리확인"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/calorie"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

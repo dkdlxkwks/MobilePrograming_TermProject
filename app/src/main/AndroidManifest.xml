@@ -57,6 +57,8 @@
         <activity android:name=".SplashActivity" />
         <activity android:name=".Calorie" />
         <activity android:name=".ExerciseRecord"/>
+        <activity android:name=".ExerciseTimer_Run"/>
+        <activity android:name=".Calorie_Run"/>
         <activity android:name=".MapsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

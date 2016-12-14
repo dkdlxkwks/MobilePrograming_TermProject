@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@android:color/darker_gray">
+    android:background="@color/cast_libraries_material_featurehighlight_text_header_color">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,14 +76,29 @@
             android:id="@+id/textView9"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="143dp" />
+            android:layout_marginTop="143dp"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="20sp" />
+
+        <ImageView
+            app:srcCompat="@drawable/walk_04"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView2"
+            android:layout_height="150dp"
+            android:layout_width="150dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:id="@+id/calshow"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="16sp"
+            android:layout_below="@+id/textView9"
             android:layout_centerHorizontal="true"
-            android:id="@+id/calshow" />
+            android:text="(몸무게를 입력해주세요)" />
+
     </RelativeLayout>
 
 </LinearLayout>

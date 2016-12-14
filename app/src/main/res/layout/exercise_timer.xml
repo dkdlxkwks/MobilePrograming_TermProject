@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
 
     <TextView
         android:layout_width="fill_parent"
@@ -17,7 +18,8 @@
         android:layout_width="fill_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/cast_expanded_controller_background_color" />
 
     <Button
         android:id="@+id/buttonstart"
@@ -40,13 +42,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Today" />
+        android:id="@+id/Today"
+        android:textColor="@color/cast_expanded_controller_background_color" />
 
     <TextView
         android:text="오늘 운동한 시간:"
         android:layout_width="121dp"
         android:layout_height="wrap_content"
-        android:id="@+id/textView6" />
+        android:id="@+id/textView6"
+        android:textColor="@color/cast_expanded_controller_background_color" />
 
     <ScrollView
         android:layout_marginTop="16dp"
@@ -57,14 +61,15 @@
             android:id="@+id/result2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white" />
+            android:textColor="@color/cast_expanded_controller_background_color" />
     </ScrollView>
 
     <TextView
         android:text="총운동시간"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
+        android:id="@+id/textView5"
+        android:textColor="@color/cast_expanded_controller_background_color" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -75,7 +80,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/alltime"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="@color/cast_expanded_controller_background_color" />
 
         <Button
             android:text="칼로리확인"

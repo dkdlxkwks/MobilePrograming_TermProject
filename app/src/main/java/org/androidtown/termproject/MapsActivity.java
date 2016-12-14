@@ -56,8 +56,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // 리스너 객체 생성
         GPSListener gpsListener = new GPSListener();
-        long minTime = 10000;
-        float minDistance = 10;
+        long minTime = 60000;
+        float minDistance = 100;
 
         try {
             // GPS 기반 위치 요청

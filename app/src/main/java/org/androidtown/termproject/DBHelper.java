@@ -19,9 +19,8 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // 새로운 테이블 생성
-        /* 이름은 MONEYBOOK이고, 자동으로 값이 증가하는 _id 정수형 기본키 컬럼과
-        item 문자열 컬럼, price 문자열 컬럼, create_at 문자열 컬럼으로 구성된 테이블을 생성. */
-        db.execSQL("CREATE TABLE MONEYBOOK (_id INTEGER PRIMARY KEY AUTOINCREMENT, item TEXT, price TEXT, create_at TEXT);");
+        //item 문자열 컬럼, content 문자열 컬럼, create_at 문자열 컬럼으로 구성된 테이블을 생성. */
+        db.execSQL("CREATE TABLE PLAN (_id INTEGER PRIMARY KEY AUTOINCREMENT, item TEXT, content TEXT, create_at TEXT);");
     }
 
     // DB 업그레이드를 위해 버전이 변경될 때 호출되는 함수
@@ -34,21 +33,14 @@ public class DBHelper extends SQLiteOpenHelper {
         // 읽고 쓰기가 가능하게 DB 열기
         SQLiteDatabase db = getWritableDatabase();
         // DB에 입력한 값으로 행 추가
-        db.execSQL("INSERT INTO MONEYBOOK VALUES(null, '" + title + "', '" + content + "', '" + create_at + "');");
-        db.close();
-    }
-
-    public void update(String title, String content) {
-        SQLiteDatabase db = getWritableDatabase();
-        // 입력한 항목과 일치하는 행의 가격 정보 수정
-        db.execSQL("UPDATE MONEYBOOK SET price=" + title + " WHERE item='" + content + "';");
+        db.execSQL("INSERT INTO PLAN VALUES(null, '" + title + "', '" + content + "', '" + create_at + "');");
         db.close();
     }
 
     public void delete(String title) {
         SQLiteDatabase db = getWritableDatabase();
         // 입력한 항목과 일치하는 행 삭제
-        db.execSQL("DELETE FROM MONEYBOOK WHERE item='" + title + "';");
+        db.execSQL("DELETE FROM PLAN WHERE item='" + title + "';");
         db.close();
     }
 
@@ -58,7 +50,7 @@ public class DBHelper extends SQLiteOpenHelper {
         String result = "";
 
         // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
-        Cursor cursor = db.rawQuery("SELECT * FROM MONEYBOOK", null);
+        Cursor cursor = db.rawQuery("SELECT * FROM PLAN", null);
         while (cursor.moveToNext()) {
             result += cursor.getString(3)
                     + "\n 제목: "

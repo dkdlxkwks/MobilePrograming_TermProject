@@ -40,9 +40,11 @@ public class ExerciseTimer extends Activity {
         etDate.setText(simpleDateFormat.format(date));
 
         SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyyMMdd");
-        String DBDay = simpleDateFormat2.format(date)+".db";
+        String DBDay = simpleDateFormat2.format(date)+"Walk.db";
 
         final DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), DBDay, null, 1);
+        result.setText(dbHelper.getResult());
+        alltime.setText(Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초");
 
         calorie.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {

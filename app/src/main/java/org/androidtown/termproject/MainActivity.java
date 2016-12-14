@@ -44,7 +44,7 @@ public class MainActivity extends TabActivity {
                 res.getDrawable(R.drawable.ic_tab)).setContent(intent);
         tabHost.addTab(spec);//New 탭 생성
         intent = new Intent().setClass(this, MapsActivity.class);
-        spec = tabHost.newTabSpec("Report").setIndicator("Report",
+        spec = tabHost.newTabSpec("Map").setIndicator("Map",
                 res.getDrawable(R.drawable.ic_tab)).setContent(intent);
         tabHost.addTab(spec);
         tabHost.setCurrentTab(0);

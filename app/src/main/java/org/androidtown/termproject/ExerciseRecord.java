@@ -28,6 +28,7 @@ public class ExerciseRecord extends AppCompatActivity {
         mContext = this;
 
         final TextView year = (TextView) findViewById(R.id.year);
+        final TextView alltime = (TextView) findViewById(R.id.alltime);
 
         long now = System.currentTimeMillis();
         Date date = new Date(now);
@@ -65,8 +66,11 @@ public class ExerciseRecord extends AppCompatActivity {
 
         button.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), year1+month+day+".db", null, 1);
-                result.setText(dbHelper.getResult());
+                DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), year1+month+day+"Walk.db", null, 1);
+                DBHelper_Exercise dbHelper2 = new DBHelper_Exercise(getApplicationContext(), year1+month+day+"Run.db", null, 1);
+                result.setText(dbHelper.getResult() + "\n" + dbHelper2.getResult());
+                alltime.setText("  Walk "+Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초"+"\n  Run   "+Long.toString(dbHelper2.timeResult()/60) + "분 " + Long.toString(dbHelper2.timeResult()%60) + "초"
+                );
             }
         });
     }

@@ -17,6 +17,6 @@
                 android:layout_width="fill_parent"            
                 android:layout_height="fill_parent"            
                 android:padding="5dp"
-            android:background="#faf5f5" />
+            android:background="@color/cast_libraries_material_featurehighlight_text_header_color" />
     </LinearLayout>
 </TabHost>

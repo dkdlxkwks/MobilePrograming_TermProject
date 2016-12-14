@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/cast_libraries_material_featurehighlight_text_header_color">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,13 +90,6 @@
             android:text="삭제" />
 
         <Button
-            android:id="@+id/update"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="수정" />
-
-        <Button
             android:id="@+id/select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,7 +100,8 @@
     <ScrollView
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/cast_libraries_material_featurehighlight_text_body_color">
 
         <TextView
             android:id="@+id/result"
@@ -113,6 +109,7 @@
             android:layout_height="wrap_content"
             android:textColor="@android:color/background_dark" />
     </ScrollView>
+
 </LinearLayout>
 
 

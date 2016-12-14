@@ -16,6 +16,9 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Exercise extends Activity implements SensorEventListener {
 
     TextView vi;
@@ -29,7 +32,7 @@ public class Exercise extends Activity implements SensorEventListener {
     private float lastZ;
     private float x, y, z;
 
-    private static final int SHAKE_THRESHOLD = 800;
+    private static final int SHAKE_THRESHOLD = 1200;
     private static final int DATA_X = SensorManager.DATA_X;
     private static final int DATA_Y = SensorManager.DATA_Y;
     private static final int DATA_Z = SensorManager.DATA_Z;
@@ -61,6 +64,15 @@ public class Exercise extends Activity implements SensorEventListener {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ExerciseRecord.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button = (Button)findViewById(R.id.button4);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ExerciseTimer_Run.class);
                 startActivity(intent);
             }
         });
