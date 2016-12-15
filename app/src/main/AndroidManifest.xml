@@ -46,19 +46,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Exercise" />
-        <activity android:name=".Note" />
-        <activity android:name=".Plan" />
-        <activity android:name=".Report" />
-        <activity android:name=".ExerciseTimer" />
-        <activity android:name=".ColorPaletteDialog" />
-        <activity android:name=".PenPaletteDialog" />
-        <activity android:name=".GallaryActivity" />
+        <activity android:name=".Exercise.Exercise" />
+        <activity android:name=".Note.Note" />
+        <activity android:name=".Plan.Plan" />
+        <activity android:name=".Exercise.ExerciseTimer" />
+        <activity android:name=".Note.ColorPaletteDialog" />
+        <activity android:name=".Note.PenPaletteDialog" />
+        <activity android:name=".Note.GallaryActivity" />
         <activity android:name=".SplashActivity" />
-        <activity android:name=".Calorie" />
-        <activity android:name=".ExerciseRecord"/>
-        <activity android:name=".ExerciseTimer_Run"/>
-        <activity android:name=".Calorie_Run"/>
+        <activity android:name=".Exercise.Calorie" />
+        <activity android:name=".Exercise.ExerciseRecord"/>
+        <activity android:name=".Exercise.ExerciseTimer_Run"/>
+        <activity android:name=".Exercise.Calorie_Run"/>
         <activity android:name=".MapsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

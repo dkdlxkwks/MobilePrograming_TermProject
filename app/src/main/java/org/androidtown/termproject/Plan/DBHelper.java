@@ -1,4 +1,4 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Plan;
 
 /**
  * Created by kyung on 2016-11-28.

@@ -1,4 +1,4 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Note;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -13,6 +13,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import org.androidtown.termproject.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

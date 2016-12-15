@@ -1,4 +1,4 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Note;
 
 import android.content.Context;
 import android.graphics.Bitmap;

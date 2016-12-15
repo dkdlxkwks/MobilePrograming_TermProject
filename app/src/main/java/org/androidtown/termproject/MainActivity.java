@@ -1,15 +1,14 @@
 package org.androidtown.termproject;
 
-import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.widget.TabHost;
-import android.widget.Toast;
 
-import java.io.File;
+import org.androidtown.termproject.Exercise.Exercise;
+import org.androidtown.termproject.Note.GallaryActivity;
+import org.androidtown.termproject.Plan.Plan;
 
 
 public class MainActivity extends TabActivity {

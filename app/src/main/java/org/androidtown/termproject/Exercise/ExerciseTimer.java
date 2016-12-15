@@ -1,4 +1,4 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Exercise;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,16 +11,18 @@ import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
 
+import org.androidtown.termproject.R;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class ExerciseTimer_Run extends Activity {
+public class ExerciseTimer extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.exercise_timer_run);
+        setContentView(R.layout.exercise_timer);
 
         final Chronometer chronometer = (Chronometer) findViewById(R.id.chronometer);
         Button buttonStart = (Button) findViewById(R.id.buttonstart);
@@ -39,16 +41,15 @@ public class ExerciseTimer_Run extends Activity {
         etDate.setText(simpleDateFormat.format(date));
 
         SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyyMMdd");
-        String DBDay = simpleDateFormat2.format(date)+"Run.db";
+        String DBDay = simpleDateFormat2.format(date)+"Walk.db";
 
         final DBHelper_Exercise dbHelper = new DBHelper_Exercise(getApplicationContext(), DBDay, null, 1);
-
         result.setText(dbHelper.getResult());
         alltime.setText(Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초");
 
         calorie.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Calorie_Run.class);
+                Intent intent = new Intent(getApplicationContext(), Calorie.class);
                 startActivity(intent);
             }
         });
@@ -63,7 +64,7 @@ public class ExerciseTimer_Run extends Activity {
         buttonStop.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 chronometer.stop();
-                dbHelper.insert("Run",(SystemClock.elapsedRealtime()-chronometer.getBase())/1000);
+                dbHelper.insert("Walk",(SystemClock.elapsedRealtime()-chronometer.getBase())/1000);
                 result.setText(dbHelper.getResult());
                 alltime.setText(Long.toString(dbHelper.timeResult()/60) + "분 " + Long.toString(dbHelper.timeResult()%60) + "초");
             }
@@ -74,7 +75,7 @@ public class ExerciseTimer_Run extends Activity {
                 chronometer.setBase(SystemClock.elapsedRealtime());
                 chronometer.stop();
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(ExerciseTimer_Run.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(ExerciseTimer.this);
 
                 builder.setTitle("주의");
                 builder.setMessage("오늘의 운동 기록을 삭제하시겠습니까?");
@@ -88,7 +89,7 @@ public class ExerciseTimer_Run extends Activity {
 
                 builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        dbHelper.delete("Run");
+                        dbHelper.delete("Walk");
                         result.setText(dbHelper.getResult());
                         alltime.setText(0 + "분 " + 0 + "초");
                     }

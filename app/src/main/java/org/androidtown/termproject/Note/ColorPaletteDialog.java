@@ -1,12 +1,8 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Note;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,26 +12,28 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
 
+import org.androidtown.termproject.R;
+
 /**
- * 선굵기를 선택하는 대화상자용 액티비티
+ * 색상을 선택하는 대화상자용 액티비티
  * 
  * @author Mike
  *
  */
-public class PenPaletteDialog extends Activity {
+public class ColorPaletteDialog extends Activity {
 
 	GridView grid;
 	Button closeBtn;
-	PenDataAdapter adapter;
+	ColorDataAdapter adapter;
 	
-	public static OnPenSelectedListener listener;
+	public static OnColorSelectedListener listener;
 	
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog);
 		
-        this.setTitle("선굵기 선택");
+        this.setTitle("색상 선택");
         
         grid = (GridView) findViewById(R.id.colorGrid);
         closeBtn = (Button) findViewById(R.id.closeBtn);
@@ -45,7 +43,7 @@ public class PenPaletteDialog extends Activity {
         grid.setVerticalSpacing(4);
         grid.setHorizontalSpacing(4);
         
-        adapter = new PenDataAdapter(this);
+        adapter = new ColorDataAdapter(this);
         grid.setAdapter(adapter);
         grid.setNumColumns(adapter.getNumColumns());
         
@@ -61,11 +59,11 @@ public class PenPaletteDialog extends Activity {
 }
 
 /**
- * Adapter for Pen Data
+ * Adapter for Color Data
  * 
  * @author Mike
  */
-class PenDataAdapter extends BaseAdapter {
+class ColorDataAdapter extends BaseAdapter {
 
 	/**
 	 * Application Context
@@ -73,12 +71,12 @@ class PenDataAdapter extends BaseAdapter {
 	Context mContext;
 
 	/**
-	 * Pens defined
+	 * Colors defined
 	 */
-    public static final int [] pens = new int[] {
-        1,2,3,4,5,
-        6,7,8,9,10,
-        11,13,15,17,20
+    public static final int [] colors = new int[] {
+        0xff000000,0xff00007f,0xff0000ff,0xff007f00,0xff007f7f,0xff00ff00,0xff00ff7f,
+        0xff00ffff,0xff7f007f,0xff7f00ff,0xff7f7f00,0xff7f7f7f,0xffff0000,0xffff007f,
+        0xffff00ff,0xffff7f00,0xffff7f7f,0xffff7fff,0xffffff00,0xffffff7f,0xffffffff
     };
 	
 	int rowCount;
@@ -86,13 +84,14 @@ class PenDataAdapter extends BaseAdapter {
 	
 	
 	
-	public PenDataAdapter(Context context) {
+	public ColorDataAdapter(Context context) {
 		super();
 
 		mContext = context;
 
+		// create test data
 		rowCount = 3;
-		columnCount = 5;
+		columnCount = 7;
 
 	}
 
@@ -105,7 +104,7 @@ class PenDataAdapter extends BaseAdapter {
 	}
 
 	public Object getItem(int position) {
-		return pens[position];
+		return colors[position];
 	}
 
 	public long getItemId(int position) {
@@ -113,51 +112,34 @@ class PenDataAdapter extends BaseAdapter {
 	}
 
 	public View getView(int position, View view, ViewGroup group) {
-		Log.d("PenDataAdapter", "getView(" + position + ") called.");
+		Log.d("ColorDataAdapter", "getView(" + position + ") called.");
 
 		// calculate position
 		int rowIndex = position / rowCount;
 		int columnIndex = position % rowCount;
-		Log.d("PenDataAdapter", "Index : " + rowIndex + ", " + columnIndex);
+		Log.d("ColorDataAdapter", "Index : " + rowIndex + ", " + columnIndex);
 
 		GridView.LayoutParams params = new GridView.LayoutParams(
 				GridView.LayoutParams.MATCH_PARENT,
 				GridView.LayoutParams.MATCH_PARENT);
 		
-		// create a Pen Image
-		int areaWidth = 10;
-		int areaHeight = 20;
-		
-		Bitmap penBitmap = Bitmap.createBitmap(areaWidth, areaHeight, Bitmap.Config.ARGB_8888);
-		Canvas penCanvas = new Canvas();
-		penCanvas.setBitmap(penBitmap);
-		
-		Paint mPaint = new Paint();
-		mPaint.setColor(Color.WHITE);
-		penCanvas.drawRect(0, 0, areaWidth, areaHeight, mPaint);
-		
-		mPaint.setColor(Color.BLACK);
-		mPaint.setStrokeWidth((float)pens[position]);
-		penCanvas.drawLine(0, areaHeight/2, areaWidth-1, areaHeight/2, mPaint);
-		BitmapDrawable penDrawable = new BitmapDrawable(mContext.getResources(), penBitmap);
-		
 		// create a Button with the color
 		Button aItem = new Button(mContext);
 		aItem.setText(" ");
-		aItem.setLayoutParams(params);
+		aItem.setLayoutParams(params);	
 		aItem.setPadding(4, 4, 4, 4);
-		aItem.setBackgroundDrawable(penDrawable);
+		aItem.setBackgroundColor(colors[position]);
 		aItem.setHeight(120);
-		aItem.setTag(pens[position]);
+		aItem.setTag(colors[position]);
 		
 		// set listener
 		aItem.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				if (PenPaletteDialog.listener != null) {
-					PenPaletteDialog.listener.onPenSelected(((Integer)v.getTag()).intValue());
+				if (ColorPaletteDialog.listener != null) {
+					ColorPaletteDialog.listener.onColorSelected(((Integer)v.getTag()).intValue());
 				}
 				
-				((PenPaletteDialog)mContext).finish();
+				((ColorPaletteDialog)mContext).finish();
 			}
 		});
 		

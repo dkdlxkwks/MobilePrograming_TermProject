@@ -1,4 +1,4 @@
-package org.androidtown.termproject;
+package org.androidtown.termproject.Note;
 
 /**
  * Interface for pen selection
